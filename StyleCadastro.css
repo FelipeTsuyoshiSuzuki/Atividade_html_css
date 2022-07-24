@@ -16,33 +16,33 @@ header {
     display:flex;
     flex-direction: row;
     margin-top: 0px;
-    margin-bottom:130px;
+    margin-bottom:80px;
     width: 100%;
     height:2rem;
 }
 
 header img {
     position: absolute;
-    top: -80px;
-    left: -20px;
+    top: -50px;
+    left: -10px;
 }
 
-header h3 {
-    position:absolute;
-    left: 220px;
+#navbarNav{
+    padding-left:18px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     width:400px;
-    height:500px;
+    height:550px;
     padding:15px;
     background-color: lightblue;
     border-radius: 10px;
     border: solid;
     border-width:3px;
     border-color: lightskyblue;
+    margin-bottom:32px;
 }
 
 .input-group {
