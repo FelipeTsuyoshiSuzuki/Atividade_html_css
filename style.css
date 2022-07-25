@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+    *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         text-decoration: none;
+     }
+
+body {
+    font-size: 100%;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px;
+    background-color: Lightblue ;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    width: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid darkblue;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 25px;
+    padding: 18px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.conteudo-principal-imagem {
+    height: 300px;
+    width: 300px;
+    gap: 24px;
+    padding: 18px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 00.4px solid #72FFFF;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 00.4px solid darkblue
+}
+
+.tela-login {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white ;
+}
+
+.botao {
+    background-color: blue;
+    border: none;
+    padding: 18px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    gap: 24px;
+}
+
+.inserir {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 15px;
+}
