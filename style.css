@@ -11,10 +11,32 @@ html, body {
     height: 100%;
 }
 body {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px;
+    background-color: Lightblue ;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+    width: 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
 }
 
 .tabela {
@@ -57,3 +79,11 @@ body {
   
 
 }
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
