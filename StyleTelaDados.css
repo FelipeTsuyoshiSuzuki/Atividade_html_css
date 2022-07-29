@@ -1,0 +1,13 @@
+﻿body {
+    
+}
+
+#filtro {
+    display: flex;
+    justify-content: center;
+    margin-top:24px;
+}
+
+#inputFiltro{
+    margin-left:8px;
+}
