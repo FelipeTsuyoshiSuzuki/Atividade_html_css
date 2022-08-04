@@ -22,9 +22,9 @@
                     <th scope="col">Conta</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="tabela">
                 <tr>
-                    <th scope="row"><button type="button" class="btn btn-outline-danger rounded-pill">X</button></th>
+                    <th scope="row"><button type="button" onclick="removeRow(this)" class="btn btn-outline-danger rounded-pill">X</button></th>
                     <td>30/12/2013</td>
                     <td>30</td>
                     <td>29/01/2014</td>
@@ -34,7 +34,7 @@
                     <td>2.5 Desp Adm</td>
                 </tr>
                 <tr>
-                    <th scope="row"><button type="button" class="btn btn-outline-danger rounded-pill">X</button></th>
+                    <th scope="row"><button type="button" onclick="removeRow(this)" class="btn btn-outline-danger rounded-pill">X</button></th>
                     <td>31/12/2013</td>
                     <td>30</td>
                     <td>30/01/2014</td>
@@ -45,19 +45,20 @@
                 </tr>
                 <tr>
                     <th scope="row"></th>
-                    <td><input type="date" name="Data Lanct"</td>
-                    <td><input type="number" name="Prazo"</td>
-                    <td><input type="date" name="Data Vect"</td>
-                    <td><input type="date" name="Data Caixa"</td>
-                    <td><input type="date" name="Mês Compet"</td>
-                    <td><input type="text" name="Empr"</td>
-                    <td><input type="text" name="Conta"</td>
+                    <td><input type="date" class="newInputs" id="Data Lanct" /></td>
+                    <td><input type="number" class="newInputs" id="Prazo" /></td>
+                    <td><input type="date" class="newInputs" id="Data Vect" /></td>
+                    <td><input type="date" class="newInputs" id="Data Caixa" /></td>
+                    <td><input type="date" class="newInputs" id="Mês Compet" /></td>
+                    <td><input type="text" class="newInputs" id="Empr" /></td>
+                    <td><input type="text" class="newInputs" id="Conta" /></td>
                 </tr>
             </tbody>
         </table>
     </div>
     <div class="container">
-        <button type="button" class="btn btn-info rounded-pill">Adicionar</button>
+        <button type="button" class="btn btn-info rounded-pill" id="add">Adicionar</button>
     </div>
+    <script src="Registros.js"></script>
 </body>
 </html>
